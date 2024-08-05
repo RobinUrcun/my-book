@@ -1,0 +1,7 @@
+[
+  { "competenceName": "HTML", "competenceImg": "/logos/HTML-logo.svg" },
+  { "competenceName": "CSS", "competenceImg": "/logos/CSS-logo.svg" },
+  { "competenceName": "JavaScript", "competenceImg": "/logos/JS-logo.svg" },
+  { "competenceName": "React JS", "competenceImg": "/logos/React-logo.svg" },
+  { "competenceName": "GitHub", "competenceImg": "/logos/Git-logo.svg" }
+]

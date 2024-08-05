@@ -1,0 +1,70 @@
+.presentationArticle {
+  background: linear-gradient(180deg, #ffffff 0%, #ecf1ff 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  .presentationArticleWrapper {
+    max-width: 500px;
+
+    h1 {
+      font-size: 130px;
+      font-weight: 600;
+      display: flex;
+      flex-direction: column;
+      font-family: "Kanit", sans-serif;
+      background: linear-gradient(180deg, #0b265e 0%, #01040a 100%);
+      line-height: 0.8;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .jobTitle {
+      color: #1c64f2;
+      font-family: "Manrope", sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      margin: 40px auto;
+    }
+    .description {
+      color: #4b5563;
+      font-family: "Manrope", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .contactBtn {
+      font-family: "Manrope", sans-serif;
+      font-weight: 700;
+      background-color: #1c64f2;
+      padding: 16px 36px;
+      border-radius: 16px;
+      color: white;
+      text-decoration: none;
+      font-size: 24px;
+      margin-top: 24px;
+      display: inline-block;
+    }
+  }
+  .presentationBubble {
+    font-family: Urbanist;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    width: fit-content;
+    padding: 14px 30px;
+    border-radius: 10px;
+    background-color: #c3ddfd;
+    transform: rotate(-5deg);
+    margin-bottom: 20px;
+    span {
+      position: absolute;
+      border-top: 10px #c3ddfd solid;
+      border-left: 10px transparent solid;
+      border-right: 10px transparent solid;
+      bottom: -10px;
+      left: calc(50% - 10px);
+      right: calc(50% - 10px);
+    }
+  }
+}

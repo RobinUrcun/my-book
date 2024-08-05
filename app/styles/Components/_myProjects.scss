@@ -1,0 +1,54 @@
+.myProjectsArticle {
+  padding-top: 100px;
+  background: linear-gradient(180deg, #0b265e 0%, #01040a 100%);
+  color: white;
+  h2 {
+    font-family: Manrope;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    text-align: center;
+  }
+  .projectsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 120px 70px;
+    .projectContainer {
+      border-top: 2px solid rgba(28, 100, 242, 0.8);
+      border-left: 2px solid rgba(28, 100, 242, 0.8);
+      border-right: 2px solid rgba(28, 100, 242, 0.8);
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 20px 20px 50px 20px;
+
+      .projectImgContainer {
+        border-radius: 10px;
+        height: 220px;
+        position: relative;
+        overflow: hidden;
+        img {
+          object-fit: cover;
+        }
+      }
+      h3 {
+        font-family: Manrope;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: left;
+        margin: 20px auto;
+      }
+      .projectDetails {
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+      }
+    }
+  }
+}

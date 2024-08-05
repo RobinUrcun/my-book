@@ -1,0 +1,24 @@
+.aboutMeArticle {
+  padding-top: 100px;
+  min-height: 800px;
+  background-image: url("/Section-2-Wave.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  .aboutMeTitle {
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #1c64f2;
+  }
+  .aboutMeDescription {
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    text-align: center;
+    width: 50%;
+    min-width: 400px;
+    margin: 30px auto;
+  }
+}

@@ -1,0 +1,124 @@
+.contactMeArticle {
+  padding: 160px 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .contactMeText {
+    font-family: Manrope;
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #1c64f2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 50%;
+
+    .contactMeDescription {
+      font-family: Manrope;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 57px;
+      text-align: left;
+      color: black;
+    }
+    .contactMeInfo {
+      display: flex;
+      flex-direction: column;
+      row-gap: 29px;
+
+      .contactMeInfoWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        gap: 17px;
+        .contactMeImgBorder {
+          width: 70px;
+          height: 70px;
+          border: 1px solid #1c64f2;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        p {
+          font-family: Manrope;
+          font-size: 20px;
+          font-weight: 500;
+          text-align: left;
+        }
+      }
+    }
+  }
+  .contactMeForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid rgba(28, 100, 242, 0.8);
+    border-left: 2px solid rgba(28, 100, 242, 0.8);
+    border-right: 2px solid rgba(28, 100, 242, 0.8);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 40px;
+    label {
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 23px;
+      text-align: left;
+      color: #4b5563;
+      margin-bottom: 10px;
+    }
+    input {
+      height: 45px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      background-color: #f9fafb;
+      padding-left: 25px;
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 23px;
+      text-align: left;
+      color: #9ca3af;
+      margin-bottom: 25px;
+    }
+    textarea {
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      background-color: #f9fafb;
+      padding-top: 15px;
+      padding-left: 25px;
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 23px;
+      text-align: left;
+      color: #9ca3af;
+      min-height: 120px;
+      margin-bottom: 25px;
+    }
+    button {
+      background-color: #1c64f2;
+      border: none;
+      height: 50px;
+      border-radius: 8px;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 21.86px;
+      text-align: left;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}

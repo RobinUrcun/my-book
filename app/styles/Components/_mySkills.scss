@@ -1,0 +1,39 @@
+.mySkillsArticle {
+  .mySkillsTitle {
+    font-family: Manrope;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    text-align: center;
+    width: 50%;
+    min-width: 400px;
+    margin: auto;
+  }
+  .skillsContainer {
+    margin: 50px auto 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+    padding: 0 10%;
+    .skillContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 10px;
+      padding: 20px 40px;
+      border: 1px #e5e7eb solid;
+      border-radius: 20px;
+      box-shadow: 0 4px 28px #88888840;
+      h3 {
+        font-family: Manrope;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32.78px;
+        text-align: center;
+      }
+    }
+  }
+}

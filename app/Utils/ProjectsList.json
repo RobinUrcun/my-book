@@ -1,0 +1,20 @@
+[
+  {
+    "projectName": "Lithosphère 83",
+    "projectImg": "/projectsPictures/lithosphere83Project.png",
+    "projectDetails": "Conception et intégration d'un site e-commerce proposant la vente de mineraux",
+    "projectUrl": "https://www.lithosphere83.fr/"
+  },
+  {
+    "projectName": "Booki",
+    "projectImg": "/projectsPictures/bookiProject.png",
+    "projectDetails": "Intégration d'une maquette en HTML / CSS dans le cadre de ma formation OpenClassroom ",
+    "projectUrl": "https://robinurcun.github.io/booki_opcr/"
+  },
+  {
+    "projectName": "kasa",
+    "projectImg": "/projectsPictures/kasaProject.png",
+    "projectDetails": "Intégration d'une maquette  dans le cadre de ma formation OpenClassroom. Utilisation du Framework React ",
+    "projectUrl": "https://robinurcun.github.io/kasa/"
+  }
+]
