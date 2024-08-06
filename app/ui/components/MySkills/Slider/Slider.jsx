@@ -17,7 +17,28 @@ export default function Slider() {
       modules={[Navigation]}
       navigation={true}
       spaceBetween={50}
-      slidesPerView={4}
+      breakpoints={{
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        // when window width is >= 320px
+
+        450: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        // when window width is >= 1024px
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+      }}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
     >

@@ -4,6 +4,10 @@ footer {
   padding: 5%;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    row-gap: 20px;
+  }
   .footerName {
     font-family: Manrope;
     font-size: 38px;

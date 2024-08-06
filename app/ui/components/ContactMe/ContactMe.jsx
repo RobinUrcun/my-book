@@ -53,7 +53,7 @@ export default function ContactMe() {
         <input type="text" name="name" placeholder="Ex. Michel Dupont" />
         <label htmlFor="mail">Adresse Email*</label>
         <input type="mail" name="mail" placeholder="exemple@exemple.com" />
-        <label htmlFor="phone">Numéro de Téléphone* Nom*</label>
+        <label htmlFor="phone">Numéro de Téléphone*</label>
         <input type="phone" name="phone" placeholder="+336 12 34 56 78" />
 
         <label htmlFor="message">Votre Message*</label>

@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./ui/Layout/Header";
+import Header from "./ui/Layout/Header/Header";
 import MyPresentation from "./ui/components/MyPresentation/MyPresentation";
 import AboutMe from "./ui/components/AboutMe/AboutMe";
 import Myskills from "./ui/components/MySkills/Myskills";
 import MyProjects from "./ui/components/MyProjects/MyProjects";
 import ContactMe from "./ui/components/ContactMe/ContactMe";
-import Footer from "./ui/Layout/Footer";
+import Footer from "./ui/Layout/Footer/Footer";
 
 export default function page() {
   return (
