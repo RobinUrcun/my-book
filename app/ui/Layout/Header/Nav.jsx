@@ -22,16 +22,43 @@ export default function Nav() {
             alt=""
           />
           <li>
-            <Link href="#about">À propos de moi</Link>
+            <Link
+              onClick={() => {
+                setIsOpen(false);
+              }}
+              href="#about"
+            >
+              À propos de moi
+            </Link>
           </li>
           <li>
-            <Link href="#skills">Skills</Link>
+            <Link
+              onClick={() => {
+                setIsOpen(false);
+              }}
+              href="#skills"
+            >
+              Skills
+            </Link>
           </li>
           <li>
-            <Link href="#projects">Mes réalisations</Link>
+            <Link
+              onClick={() => {
+                setIsOpen(false);
+              }}
+              href="#projects"
+            >
+              Mes réalisations
+            </Link>
           </li>
           <li>
-            <Link href="#contact" className="bold">
+            <Link
+              onClick={() => {
+                setIsOpen(false);
+              }}
+              href="#contact"
+              className="bold"
+            >
               Contactez-moi
             </Link>
           </li>

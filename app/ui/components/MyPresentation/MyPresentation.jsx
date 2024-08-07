@@ -18,7 +18,7 @@ export default function MyPresentation() {
           Lorem ipsum dolor sit amet consectetur. Feugiat integer amet donec
           vivamus. Est a molestie.
         </p>
-        <Link href="" className="contactBtn">
+        <Link href="#contact" className="contactBtn">
           Contactez-moi
         </Link>
       </div>
