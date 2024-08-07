@@ -15,8 +15,9 @@ export default function MyPresentation() {
         </h1>
         <h2 className="jobTitle">Développeur Web</h2>
         <p className="description">
-          Lorem ipsum dolor sit amet consectetur. Feugiat integer amet donec
-          vivamus. Est a molestie.
+          À l&apos;écoute et attentif aux détails, j'ai une forte volonté
+          d&apos;apprendre et de m&apos;améliorer continuellement. Je
+          m&apos;engage à créer des solutions innovantes et efficaces.
         </p>
         <Link href="#contact" className="contactBtn">
           Contactez-moi

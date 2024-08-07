@@ -7,7 +7,7 @@ export default function ContactMe() {
       <div className="contactMeText">
         <h2>Contactez-moi</h2>
         <p className="contactMeDescription">
-          Feel Free to Reach Me to Discuss New Projects
+          N&apos;hésitez pas à me contacter pour discuter de nouveaux projets
         </p>
         <div className="contactMeInfo">
           <a href="tel: +337 50 51 29 56" className="contactMeInfoWrapper">
