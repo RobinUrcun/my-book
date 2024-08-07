@@ -15,7 +15,7 @@ export default function MyPresentation() {
         </h1>
         <h2 className="jobTitle">Développeur Web</h2>
         <p className="description">
-          À l&apos;écoute et attentif aux détails, j'ai une forte volonté
+          À l&apos;écoute et attentif aux détails, j&apos;ai une forte volonté
           d&apos;apprendre et de m&apos;améliorer continuellement. Je
           m&apos;engage à créer des solutions innovantes et efficaces.
         </p>
