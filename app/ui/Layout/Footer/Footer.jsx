@@ -24,7 +24,7 @@ export default function Footer() {
               href="https://fr.linkedin.com/in/robin-urcun-a97461291"
             >
               <Image
-                src={"/logos/linkedinLogo.svg"}
+                src={"/logos/LinkedinLogo.svg"}
                 width={30}
                 height={30}
                 alt="Se rendre sur mon profil Linkedin"
