@@ -45,7 +45,11 @@ export default function Slider() {
             className="projectContainer"
           >
             <div className="projectImgContainer">
-              <Image src={project.projectImg} fill={true} alt="" />
+              <Image
+                src={project.projectImg}
+                fill={true}
+                alt={`Lien pour se rendre sur ${project.projectName}`}
+              />
             </div>
             <h3>{project.projectName}</h3>
             <p className="projectDetails">{project.projectDetails}</p>

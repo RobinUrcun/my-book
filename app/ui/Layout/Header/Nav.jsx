@@ -19,7 +19,7 @@ export default function Nav() {
             src={"/logos/closeLogo.svg"}
             width={25}
             height={25}
-            alt=""
+            alt="Fermer le menu"
           />
           <li>
             <Link
@@ -81,7 +81,7 @@ export default function Nav() {
         src={"/logos/menuLogo.svg"}
         width={40}
         height={40}
-        alt=""
+        alt="Ouvrir le menu"
       />
     </React.Fragment>
   );

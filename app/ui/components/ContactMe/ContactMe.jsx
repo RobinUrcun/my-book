@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import ContactForm from "./ContactForm/ContactForm";
 
 export default function ContactMe() {
   return (
@@ -16,7 +17,7 @@ export default function ContactMe() {
                 src={"/logos/callLogo.svg"}
                 height={40}
                 width={40}
-                alt=""
+                alt="Lien pour téléphoner"
               />
             </div>
             <p>+ 337 50 51 29 56</p>
@@ -30,7 +31,7 @@ export default function ContactMe() {
                 src={"/logos/mailLogo.svg"}
                 height={40}
                 width={40}
-                alt=""
+                alt="Lien pour envoyer un mail"
               />
             </div>
             <p>robinurcun@gmail.com</p>
@@ -41,25 +42,14 @@ export default function ContactMe() {
                 src={"/logos/positionLogo.svg"}
                 height={40}
                 width={40}
-                alt=""
+                alt="Ma localisation"
               />
             </div>
             <p>Les Issambres, VAR</p>
           </div>
         </div>
       </div>
-      <form className="contactMeForm">
-        <label htmlFor="name">Votre Nom*</label>
-        <input type="text" name="name" placeholder="Ex. Michel Dupont" />
-        <label htmlFor="mail">Adresse Email*</label>
-        <input type="mail" name="mail" placeholder="exemple@exemple.com" />
-        <label htmlFor="phone">Numéro de Téléphone*</label>
-        <input type="phone" name="phone" placeholder="+336 12 34 56 78" />
-
-        <label htmlFor="message">Votre Message*</label>
-        <textarea name="message" placeholder="Votre message ..."></textarea>
-        <button>Envoyer un message</button>
-      </form>
+      <ContactForm />
     </article>
   );
 }

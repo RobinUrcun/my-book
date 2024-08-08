@@ -14,7 +14,7 @@ export default function Footer() {
                 src={"/logos/gitHubLogo.svg"}
                 width={30}
                 height={30}
-                alt=""
+                alt="Se rendre sur mon profil GitHub"
               />
             </a>
           </li>
@@ -27,7 +27,7 @@ export default function Footer() {
                 src={"/logos/linkedinLogo.svg"}
                 width={30}
                 height={30}
-                alt=""
+                alt="Se rendre sur mon profil Linkedin"
               />
             </a>
           </li>

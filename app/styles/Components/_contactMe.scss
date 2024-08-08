@@ -120,6 +120,10 @@
       text-align: left;
       color: #9ca3af;
       margin-bottom: 25px;
+      &::placeholder {
+        color: rgb(2, 2, 2);
+        font-size: 19px;
+      }
     }
     textarea {
       border: 1px solid #d1d5db;

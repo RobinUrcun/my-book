@@ -45,7 +45,12 @@ export default function Slider() {
       {SkillsList.map((skill, index) => (
         <SwiperSlide key={skill.competenceName + index}>
           <div className="skillContainer">
-            <Image src={skill.competenceImg} width={100} height={100} alt="" />
+            <Image
+              src={skill.competenceImg}
+              width={100}
+              height={100}
+              alt={`Je maitrise ${skill.competenceName}`}
+            />
             <h3>{skill.competenceName}</h3>
           </div>
         </SwiperSlide>

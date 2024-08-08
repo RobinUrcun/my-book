@@ -24,7 +24,12 @@ export default function MyPresentation() {
         </Link>
       </div>
       <div className="presentionArticleWrapperImg">
-        <Image src="/HomePicture.webp" height={610} width={580} alt="" />
+        <Image
+          src="/HomePicture.webp"
+          height={610}
+          width={580}
+          alt="Une photos de moi !"
+        />
       </div>
     </article>
   );
