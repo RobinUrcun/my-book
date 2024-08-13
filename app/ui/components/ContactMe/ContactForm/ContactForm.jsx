@@ -36,6 +36,7 @@ export default function ContactForm() {
         type="text"
         name="name"
         placeholder="Ex. Michel Dupont"
+        autoComplete="name"
       />
       <label htmlFor="mail">Adresse Email*</label>
       <input
@@ -43,6 +44,7 @@ export default function ContactForm() {
         type="mail"
         name="mail"
         placeholder="exemple@exemple.com"
+        autoComplete="email"
       />
       <label htmlFor="phone">Numéro de Téléphone*</label>
       <input
@@ -50,6 +52,7 @@ export default function ContactForm() {
         type="phone"
         name="phone"
         placeholder="+336 12 34 56 78"
+        autoComplete="tel"
       />
 
       <label htmlFor="message">Votre Message*</label>
