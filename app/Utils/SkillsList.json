@@ -5,5 +5,9 @@
   { "competenceName": "React JS", "competenceImg": "/logos/reactLogo.svg" },
   { "competenceName": "GitHub", "competenceImg": "/logos/gitHubLogo.svg" },
   { "competenceName": "Next Js", "competenceImg": "/logos/nextJsLogo.svg" },
-  { "competenceName": "MongoDb", "competenceImg": "/logos/mongodbLogo.svg" }
+  { "competenceName": "MongoDb", "competenceImg": "/logos/mongodbLogo.svg" },
+  {
+    "competenceName": "TypeScript",
+    "competenceImg": "/logos/typeScriptLogo.svg"
+  }
 ]
