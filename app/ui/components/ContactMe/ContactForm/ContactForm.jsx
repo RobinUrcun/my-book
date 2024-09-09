@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function ContactForm() {
   const sendMessage = (e) => {
@@ -17,6 +19,7 @@ export default function ContactForm() {
     })
       .then(() => {
         console.log("mail envoyé");
+        toast.success("Message envoyé !");
       })
       .catch((err) => console.log({ err }));
   };
@@ -54,7 +57,6 @@ export default function ContactForm() {
         placeholder="+336 12 34 56 78"
         autoComplete="tel"
       />
-
       <label htmlFor="message">Votre Message*</label>
       <textarea
         id="message"
@@ -62,6 +64,18 @@ export default function ContactForm() {
         placeholder="Votre message ..."
       ></textarea>
       <button>Envoyer un message</button>
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover={false}
+        theme="light"
+      />
     </form>
   );
 }
