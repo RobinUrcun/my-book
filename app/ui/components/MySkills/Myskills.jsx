@@ -5,7 +5,7 @@ export default function Myskills() {
   return (
     <article id="skills" className="mySkillsArticle">
       <h2 className="mySkillsTitle">
-        Développeur Web qualifié avec les connaissances nécessaires !
+        Développeur Web qualifié avec les connaissances nécessaires
       </h2>
       <div className="skillsContainer">
         <Slider />

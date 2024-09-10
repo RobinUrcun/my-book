@@ -39,8 +39,6 @@ export default function Slider() {
           spaceBetween: 40,
         },
       }}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       {SkillsList.map((skill, index) => (
         <SwiperSlide key={skill.competenceName + index}>

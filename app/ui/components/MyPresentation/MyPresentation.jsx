@@ -24,11 +24,109 @@ export default function MyPresentation() {
         </Link>
       </div>
       <div className="presentionArticleWrapperImg">
+        <div id="roundBackground"></div>
         <Image
-          src="/HomePicture.webp"
+          id="mainPicture"
+          src="/HomePicture3.PNG"
           height={610}
           width={580}
           alt="Une photos de moi !"
+        />
+        <Image
+          id="decoration1"
+          src={"decorations/decoration1.svg"}
+          height={100}
+          width={200}
+          alt="décoration"
+        />
+        <Image
+          id="decoration2"
+          src={"decorations/decoration2.svg"}
+          height={100}
+          width={200}
+          alt="décoration"
+        />
+        <div id="cubeContainer">
+          <div id="cube">
+            <div className="face front">
+              <Image
+                src={"/decorations/hook/hook.svg"}
+                height={20}
+                width={20}
+                alt="a hook"
+              />
+              <Image
+                src={"/decorations/hook/hook.svg"}
+                height={20}
+                width={20}
+                alt="a hook"
+              />
+            </div>
+            <div className="face back">
+              <Image
+                src={"/decorations/cross/bar.svg"}
+                height={20}
+                width={20}
+                alt="a cross"
+              />
+              <Image
+                src={"/decorations/cross/bar.svg"}
+                height={20}
+                width={20}
+                alt="a cross"
+              />
+            </div>
+            <div className="face right">
+              <Image
+                src={"/decorations/point/point.svg"}
+                height={10}
+                width={10}
+                alt="a point"
+              />
+              <Image
+                src={"/decorations/point/point.svg"}
+                height={10}
+                width={10}
+                alt="a point"
+              />
+              <Image
+                src={"/decorations/point/point.svg"}
+                height={10}
+                width={10}
+                alt="a point"
+              />
+            </div>
+            <div className="face left">
+              <Image
+                src={"/decorations/splint/splint.svg"}
+                height={20}
+                width={20}
+                alt="a splint"
+              />
+              <Image
+                src={"/decorations/splint/splint.svg"}
+                height={20}
+                width={20}
+                alt="a splint"
+              />
+            </div>
+            <div className="face top"></div>
+            <div className="face bottom"></div>
+          </div>
+        </div>
+        <Image
+          id="decoration3"
+          src={"/decorations/decoration3.svg"}
+          height={20}
+          width={20}
+          alt="a ball"
+        />
+        <Image
+          id="decoration4"
+          src={"/decorations/decoration3.svg"}
+          height={20}
+          width={20}
+          alt="a ball"
         />
       </div>
     </article>

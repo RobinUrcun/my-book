@@ -16,7 +16,6 @@ export default function Slider() {
       modules={[Navigation]}
       navigation={true}
       spaceBetween={50}
-      onSlideChange={() => console.log("slide change")}
       loop={true}
       breakpoints={{
         // when window width is >= 320px
@@ -35,7 +34,6 @@ export default function Slider() {
           spaceBetween: 40,
         },
       }}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       {ProjectsList.map((project, index) => (
         <SwiperSlide key={project.projectName + index}>
@@ -48,6 +46,7 @@ export default function Slider() {
               <Image
                 src={project.projectImg}
                 fill={true}
+                sizes="220"
                 alt={`Lien pour se rendre sur ${project.projectName}`}
               />
             </div>
