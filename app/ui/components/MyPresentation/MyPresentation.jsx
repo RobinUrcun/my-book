@@ -27,7 +27,7 @@ export default function MyPresentation() {
         <div id="roundBackground"></div>
         <Image
           id="mainPicture"
-          src="/HomePicture3.PNG"
+          src="/HomePicture3.png"
           height={610}
           width={580}
           alt="Une photos de moi !"
