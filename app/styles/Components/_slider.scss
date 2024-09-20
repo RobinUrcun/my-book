@@ -5,3 +5,8 @@
     text-wrap: nowrap;
   }
 }
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
