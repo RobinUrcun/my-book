@@ -12,6 +12,13 @@
     "projectUrl": "https://robinurcun.github.io/booki_opcr/"
   },
   {
+    "projectName": "Booki",
+    "projectImg": "/projectsPictures/bookiProject.webp",
+    "projectDetails": "Intégration d'une maquette en HTML / CSS dans le cadre de ma formation OpenClassroom ",
+    "projectUrl": "https://robinurcun.github.io/booki_opcr/"
+  },
+
+  {
     "projectName": "kasa",
     "projectImg": "/projectsPictures/kasaProject.webp",
     "projectDetails": "Intégration d'une maquette  dans le cadre de ma formation OpenClassroom. Utilisation du Framework React ",
