@@ -23,7 +23,7 @@
   },
   {
     "projectName": "PickALang",
-    "projectImg": "/projectsPictures/pickAlangProject.webp",
+    "projectImg": "/projectsPictures/pickALangProject.webp",
     "projectDetails": "Un site qui vous permettra de voter pour votre langage de programmation préféré!",
     "projectUrl": "https://www.pickalang.fr",
     "projectSkill": [
