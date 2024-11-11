@@ -5,7 +5,7 @@
     "projectDetails": "Conception et intégration d'un site e-commerce proposant la vente de mineraux",
     "projectUrl": "https://www.lithosphere83.fr/",
     "projectSkill": [
-      { "skillName": "Next", "skillImgUrl": "/logos/nextJslogo.svg" },
+      { "skillName": "Next", "skillImgUrl": "/logos/nextJsLogo.svg" },
       { "skillName": "MongoDb", "skillImgUrl": "/logos/mongodbLogo.svg" },
       { "skillName": "Aws", "skillImgUrl": "/logos/awsLogo.png" },
       { "skillName": "Sass", "skillImgUrl": "/logos/sassLogo.png" }
@@ -17,7 +17,7 @@
     "projectDetails": "Intégration d'un site pour un Food Truck à pizza situé en Guadeloupe",
     "projectUrl": "https://www.tib-pizza.fr",
     "projectSkill": [
-      { "skillName": "Next", "skillImgUrl": "/logos/nextJslogo.svg" },
+      { "skillName": "Next", "skillImgUrl": "/logos/nextJsLogo.svg" },
       { "skillName": "Sass", "skillImgUrl": "/logos/sassLogo.png" }
     ]
   },
