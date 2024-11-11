@@ -1,12 +1,24 @@
 // COMPETENCES SLIDER //
+
 .skillsContainer {
   .swiper {
     padding: 30px 0;
     text-wrap: nowrap;
   }
+  .swiper-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
 }
-.swiper-slide {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
+
+.swiper-wrapper {
+  display: flex;
+  align-items: stretch;
+  .swiper-slide {
+    height: auto;
+    a {
+      height: 100%;
+    }
+  }
 }

@@ -1,13 +1,24 @@
 [
-  { "competenceName": "HTML", "competenceImg": "/logos/htmlLogo.svg" },
-  { "competenceName": "CSS", "competenceImg": "/logos/cssLogo.svg" },
-  { "competenceName": "JavaScript", "competenceImg": "/logos/jsLogo.svg" },
   { "competenceName": "React JS", "competenceImg": "/logos/reactLogo.svg" },
-  { "competenceName": "GitHub", "competenceImg": "/logos/gitHubLogo.svg" },
   { "competenceName": "Next Js", "competenceImg": "/logos/nextJsLogo.svg" },
+  { "competenceName": "SQL", "competenceImg": "/logos/sqlLogo.png" },
+  { "competenceName": "PHP", "competenceImg": "/logos/phpLogo.svg" },
   { "competenceName": "MongoDb", "competenceImg": "/logos/mongodbLogo.svg" },
   {
     "competenceName": "TypeScript",
     "competenceImg": "/logos/typeScriptLogo.svg"
-  }
+  },
+  {
+    "competenceName": "Sass",
+    "competenceImg": "/logos/sassLogo.png"
+  },
+  {
+    "competenceName": "Aws",
+    "competenceImg": "/logos/awsLogo.png"
+  },
+  { "competenceName": "HTML", "competenceImg": "/logos/htmlLogo.svg" },
+  { "competenceName": "CSS", "competenceImg": "/logos/cssLogo.svg" },
+  { "competenceName": "JavaScript", "competenceImg": "/logos/jsLogo.svg" },
+
+  { "competenceName": "GitHub", "competenceImg": "/logos/gitHubLogo.svg" }
 ]

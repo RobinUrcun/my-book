@@ -42,16 +42,31 @@ export default function Slider() {
             target="_blank"
             className="projectContainer"
           >
-            <div className="projectImgContainer">
-              <Image
-                src={project.projectImg}
-                fill={true}
-                sizes="220"
-                alt={`Lien pour se rendre sur ${project.projectName}`}
-              />
+            <div>
+              <div className="projectImgContainer">
+                <Image
+                  src={project.projectImg}
+                  fill={true}
+                  sizes="220"
+                  alt={`Lien pour se rendre sur ${project.projectName}`}
+                />
+              </div>
+              <h3>{project.projectName}</h3>
+              <p className="projectDetails">{project.projectDetails}</p>
             </div>
-            <h3>{project.projectName}</h3>
-            <p className="projectDetails">{project.projectDetails}</p>
+            <div className="projectSkills">
+              {project.projectSkill?.map((skill, index) => (
+                <div className="projectSkillImg" key={skill.name + index}>
+                  <Image
+                    key={skill.name + index}
+                    height={50}
+                    width={50}
+                    src={skill.skillImgUrl}
+                    alt={`Logo de ${skill.skillName}`}
+                  />
+                </div>
+              ))}
+            </div>
           </a>
         </SwiperSlide>
       ))}

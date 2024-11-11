@@ -3,25 +3,54 @@
     "projectName": "Lithosphère 83",
     "projectImg": "/projectsPictures/lithosphere83Project.webp",
     "projectDetails": "Conception et intégration d'un site e-commerce proposant la vente de mineraux",
-    "projectUrl": "https://www.lithosphere83.fr/"
+    "projectUrl": "https://www.lithosphere83.fr/",
+    "projectSkill": [
+      { "skillName": "Next", "skillImgUrl": "/logos/nextJslogo.svg" },
+      { "skillName": "MongoDb", "skillImgUrl": "/logos/mongodbLogo.svg" },
+      { "skillName": "Aws", "skillImgUrl": "/logos/awsLogo.png" },
+      { "skillName": "Sass", "skillImgUrl": "/logos/sassLogo.png" }
+    ]
   },
   {
     "projectName": "Tib Pizza",
     "projectImg": "/projectsPictures/tib-pizzaProject.webp",
     "projectDetails": "Intégration d'un site pour un Food Truck à pizza situé en Guadeloupe",
-    "projectUrl": "https://www.tib-pizza.fr"
+    "projectUrl": "https://www.tib-pizza.fr",
+    "projectSkill": [
+      { "skillName": "Next", "skillImgUrl": "/logos/nextJslogo.svg" },
+      { "skillName": "Sass", "skillImgUrl": "/logos/sassLogo.png" }
+    ]
+  },
+  {
+    "projectName": "PickALang",
+    "projectImg": "/projectsPictures/pickAlangProject.webp",
+    "projectDetails": "Un site qui vous permettra de voter pour votre langage de programmation préféré!",
+    "projectUrl": "https://www.pickalang.fr",
+    "projectSkill": [
+      { "skillName": "Php", "skillImgUrl": "/logos/phpLogo.svg" },
+      { "skillName": "Sass", "skillImgUrl": "/logos/sassLogo.png" },
+      { "skillName": "SQL", "skillImgUrl": "/logos/sqlLogo.png" }
+    ]
   },
   {
     "projectName": "Booki",
     "projectImg": "/projectsPictures/bookiProject.webp",
     "projectDetails": "Intégration d'une maquette en HTML / CSS dans le cadre de ma formation OpenClassroom ",
-    "projectUrl": "https://robinurcun.github.io/booki_opcr/"
+    "projectUrl": "https://robinurcun.github.io/booki_opcr/",
+    "projectSkill": [
+      { "skillName": "HTML", "skillImgUrl": "/logos/htmlLogo.svg" },
+      { "skillName": "Sass", "skillImgUrl": "/logos/sassLogo.png" }
+    ]
   },
 
   {
     "projectName": "kasa",
     "projectImg": "/projectsPictures/kasaProject.webp",
     "projectDetails": "Intégration d'une maquette  dans le cadre de ma formation OpenClassroom. Utilisation du Framework React ",
-    "projectUrl": "https://robinurcun.github.io/kasa/"
+    "projectUrl": "https://robinurcun.github.io/kasa/",
+    "projectSkill": [
+      { "skillName": "React", "skillImgUrl": "/logos/reactLogo.svg" },
+      { "skillName": "Sass", "skillImgUrl": "/logos/sassLogo.png" }
+    ]
   }
 ]

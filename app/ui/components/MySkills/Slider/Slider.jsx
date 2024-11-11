@@ -16,7 +16,6 @@ export default function Slider() {
       loop={true}
       modules={[Navigation]}
       navigation={true}
-      spaceBetween={50}
       breakpoints={{
         0: {
           slidesPerView: 1,
@@ -28,14 +27,19 @@ export default function Slider() {
           slidesPerView: 2,
           spaceBetween: 20,
         },
-        // when window width is >= 640px
-        640: {
+        600: {
           slidesPerView: 3,
+          spaceBetween: 30,
+        },
+
+        // when window width is >= 640px
+        800: {
+          slidesPerView: 4,
           spaceBetween: 30,
         },
         // when window width is >= 1024px
         1024: {
-          slidesPerView: 4,
+          slidesPerView: 5,
           spaceBetween: 40,
         },
       }}

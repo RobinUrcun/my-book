@@ -21,7 +21,6 @@
     flex-direction: row;
     justify-content: center;
     column-gap: 30px;
-    padding: 0 10%;
     .skillContainer {
       display: flex;
       flex-direction: column;
@@ -38,6 +37,9 @@
         font-weight: 500;
         line-height: 32.78px;
         text-align: center;
+      }
+      img {
+        object-fit: contain;
       }
     }
   }
