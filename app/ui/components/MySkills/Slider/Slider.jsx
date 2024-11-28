@@ -38,7 +38,7 @@ export default function Slider() {
           spaceBetween: 30,
         },
         // when window width is >= 1024px
-        1024: {
+        1100: {
           slidesPerView: 5,
           spaceBetween: 40,
         },

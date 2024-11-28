@@ -1,5 +1,15 @@
 [
   {
+    "projectName": "Corps et Âme",
+    "projectImg": "/projectsPictures/corpsEtAmeProject.webp",
+    "projectDetails": "Intégration d'un site pour une professionnelle proposant des thérapies en liberation emotionnelle.",
+    "projectUrl": "https://www.corps-et-âme.fr/",
+    "projectSkill": [
+      { "skillName": "Next", "skillImgUrl": "/logos/nextJsLogo.svg" },
+      { "skillName": "Sass", "skillImgUrl": "/logos/sassLogo.png" }
+    ]
+  },
+  {
     "projectName": "Lithosphère 83",
     "projectImg": "/projectsPictures/lithosphere83Project.webp",
     "projectDetails": "Conception et intégration d'un site e-commerce proposant la vente de mineraux",
