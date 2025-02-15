@@ -9,6 +9,10 @@
     "competenceImg": "/logos/typeScriptLogo.svg"
   },
   {
+    "competenceName": "Vue JS",
+    "competenceImg": "/logos/vueLogo.svg"
+  },
+  {
     "competenceName": "Sass",
     "competenceImg": "/logos/sassLogo.png"
   },
